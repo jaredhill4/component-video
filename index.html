@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Component - Modal</title>
+        <link href="videos.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!-- Video thumb -->
+        <div class="video-thumb" data-video-play data-video-id="WQJuGeqdbn4" data-video-source="youtube">
+            <div class="video-thumb__image" data-video-duration="4:58" style="background-image: url(https://i.ytimg.com/vi/WQJuGeqdbn4/maxresdefault.jpg);">
+                <span class="video-thumb__play-icon">
+                    <span class="video-thumb__play-icon-triangle"></span>
+                </span>
+            </div>
+        </div>
+
+        <!-- Video modal -->
+        <div class="video-modal">
+            <div class="video-modal__overlay"></div>
+            <span class="video-modal__close"></span>
+            <div class="video-modal__dialog">
+                <div class="video-modal__player"></div>
+            </div>
+        </div>
+
+        <script src="videos.js"></script>
+    </body>
+</html>
